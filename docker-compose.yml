@@ -9,3 +9,4 @@ services:
       dockerfile: Dockerfile
     volumes: 
       - .:/usr/slackbot
+    env_file: my_env_file.env

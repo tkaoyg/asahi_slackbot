@@ -1,4 +1,5 @@
-API_TOKEN = "xoxb-1619163176208-1780995134916-VcH85pDfDaNK731cY6QhxYg2"
+import os
+API_TOKEN = os.environ["BOT_API_TOKEN"]
 
 DEFAULT_REPLY = "リプライします" # 下記プラグインに該当しない場合の処理
 
