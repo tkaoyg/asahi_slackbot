@@ -1,0 +1,11 @@
+version: '3'
+services: 
+  req-services:
+    image: "req-image:1.00"
+    container_name: "req-container"
+    tty: true
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes: 
+      - .:/usr/req

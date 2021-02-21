@@ -1,0 +1,12 @@
+{
+    "name": "コンテナ",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "req-services",
+    "workspaceFolder": "/usr/req",
+    "extensions": [
+        "ms-azuretools.vscode-docker",
+        "ms-ceintl.vscode-language-pack-ja",
+        "donjayamanne.githistory",
+        "ms-python.python"
+    ]
+}
