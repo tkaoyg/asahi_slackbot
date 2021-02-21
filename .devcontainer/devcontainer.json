@@ -1,8 +1,8 @@
 {
     "name": "コンテナ",
     "dockerComposeFile": "../docker-compose.yml",
-    "service": "req-services",
-    "workspaceFolder": "/usr/req",
+    "service": "slack-services",
+    "workspaceFolder": "/usr/slackbot",
     "extensions": [
         "ms-azuretools.vscode-docker",
         "ms-ceintl.vscode-language-pack-ja",
