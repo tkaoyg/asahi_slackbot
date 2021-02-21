@@ -10,5 +10,5 @@ def greeting_1(message):
 # 「listen_to」はメンションがなくても特定の文字列の投稿があった際に応答する
 @listen_to("あいうえお")
 def greeting_2(message):
-    message.reply("あいうえお　です")
+    message.reply("あいうえお　と入力されました")
     # message.react("melon") # メロン絵文字をリアクション

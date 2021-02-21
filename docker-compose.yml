@@ -8,4 +8,4 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes: 
-      - .:/usr/req
+      - .:/usr/slackbot
