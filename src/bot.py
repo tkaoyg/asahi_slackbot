@@ -6,5 +6,6 @@ def main():
     bot.run() # 変数botに対してrun()メソッドを使用
 
 if __name__ == "__main__":
+    print("bot start")
     main()
     
